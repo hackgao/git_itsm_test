@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Interview" max_length="40" name="x_155065_git_itsm_interview" type="collection">
+        <element attributes="encode_utf8=false" display="true" label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="Score" max_length="40" name="score" type="float"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>
